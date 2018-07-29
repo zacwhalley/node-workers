@@ -1,0 +1,19 @@
+{
+  "name": "workers-test",
+  "version": "0.0.0",
+  "description": "A test of the experimental workers feature added in Node 10.5.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zacwhalley/node-workers.git"
+  },
+  "author": "Zac Whalley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zacwhalley/node-workers/issues"
+  },
+  "homepage": "https://github.com/zacwhalley/node-workers#readme"
+}
