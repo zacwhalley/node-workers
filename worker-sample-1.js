@@ -16,8 +16,7 @@ if(isMainThread) {
 
     setInterval((a) => currentVal = counter(a, currentVal + 1), intervals[2], "MainThread");
 }
-
 else {
     console.log("not main thread");
-    setInterval((a) => currentVal = counter(a,currentVal + 1), intervals[workerData], workerData);
+    setInterval((a) => currentVal = counter(a, currentVal + 1), intervals[workerData], workerData);
 }
