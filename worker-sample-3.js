@@ -31,5 +31,4 @@ request.get('http://www.google.com', (err, resp) => {
 		return console.error(err);
 	}
 	console.log("Total bytes received: ", resp.body.length);
-	//myWorker.postMessage({finished: true, timeDiff: Date.now() - start}) //you could send messages to your workers like this
 });

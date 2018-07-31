@@ -1,7 +1,7 @@
-const { Worker, isMainThread, workerData }  = require('worker_threads');
+const { Worker, isMainThread, workerData } = require('worker_threads');
 
 let currentVal = 0;
-let intervals = [100, 1000, 500];
+const intervals = [100, 1000, 500];
 
 const counter = (id, i) => {
     console.log(`[${id}] ${i}`);
